@@ -3,7 +3,7 @@
 :: set PYTHON=
 :: set GIT=
 :: set VENV_DIR=
-set COMMANDLINE_ARGS=--uv --cuda-malloc --cuda-stream --enable-triton-backend --reserve-vram 2 --expandable-segments 
+set COMMANDLINE_ARGS=--uv --cuda-malloc --cuda-stream --enable-triton-backend --reserve-vram 1 --expandable-segments --pynvml 
 :: --pin-shared-memory --cuda-malloc --cuda-stream
 :: --skip-python-version-check --skip-torch-cuda-test --skip-version-check --skip-prepare-environment --skip-install
 
